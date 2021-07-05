@@ -1,0 +1,68 @@
+#seccionmedia-fotos .card-fotos-secciondos{
+    /*quita el borde predeterminado para la tarjeta*/
+    border:none;
+    background-color: #FDF7CF;
+}
+
+#seccionmedia-fotos .card-header{
+    border:none;
+    background-color: #FDF7CF;
+    padding-top:10px;
+}
+
+#seccionmedia-fotos .card-header h1{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#83a457;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+
+ .card-group {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card img{
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    width: 100%;
+    /*centrar las imgs*/
+    margin:  20px auto;
+    border: 2px solid #87a357;
+}
+
+
+.card-group > .card:not(:first-child) .card-img-top, .card-group > .card:not(:first-child) .card-header,
+ .card:not(:last-child) .card-img-top,.card-group > .card:not(:last-child) .card-header,
+.card-group > .card:not(:last-child) .card-img-top, .card-group > .card:not(:last-child) .card-header {
+    border-radius: 20px;
+    border: 7px solid #87a357;
+}
+
+#seccionmedia-fotos .card-body{
+    margin: 1px 1px auto;
+}
+
+#seccionmedia-fotos .card-body h5{
+    text-align: center;
+    padding: 0px 10px;
+     color: #7f3985;
+}
+#seccionmedia-fotos .card-body p{
+    text-align: justify;
+    padding: 0px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+@media (min-width: 576px){
+    #seccionmedia-fotos .card-group {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}

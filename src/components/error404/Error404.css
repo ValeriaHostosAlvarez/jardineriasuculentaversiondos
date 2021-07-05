@@ -1,0 +1,38 @@
+.error404{
+    width: 100%;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.error-texto{
+    margin: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.error-texto h1{
+    font-size: 100px;
+    color:purple;
+    text-align: center;
+}
+
+.error-texto h2{
+    font-size: 50px;
+    text-align: center;
+    color:seashell;
+    margin-bottom: 70px;
+}
+
+.error-adv h2{
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    color:white;
+}
+
+.error-img{
+   margin-top: 5px;
+  
+}

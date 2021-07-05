@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+/*Fuente : Monserrat 
+    -párrafos
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap');
+
+
+/*------------------------  BOTTOM  ----------------------------------*/
+#bottom{
+    margin:auto;
+    width: 100%;
+}
+
+.grid-containerbottom{
+display: inline-grid;
+/*grid-template-columns: auto auto auto;*/
+/*color de fondo de la caja*/
+ background-color: rgb(92, 66, 104);
+padding: 10px;
+grid-column-gap: 10px;
+width: 100%;
+}
+
+.grid-item-bottom{
+/* color de fondo negro*/
+ background-color: rgba(92, 66, 104, 0.8);
+ padding: 20px;
+ font-size: 20px;
+text-align: center;
+color: #ffffff;
+}
+
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+}
+
+/*-------------- redes sociales -------------*/
+.redes {
+    justify-content: center;
+    align-items: center;
+}
+#color-tituloredessociales{
+    text-align: center;
+    color: #ffffff;
+}
+
+.redes i  {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   border-radius: 25px 25px 25px 25px;
+   text-align: center;
+   align-items: center;
+   list-style: none;
+} 
+
+.fab{
+    margin:5px;
+    width: 37px;
+    height: 37px;
+    font-size: 35px;
+    list-style: none;
+    color: #E7D9E5 ;
+    background-color:#7f3985;  
+    max-width: 65px;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.fab:hover{
+    background-color: #E7D9E5;
+    color: #7f3985;
+}
+
+.fa-facebook{
+     background-color: #E7D9E5;
+    color: #7f3985;
+}
+
+.fa-facebook:hover{
+       color: #E7D9E5 ;
+    background-color:#7f3985; 
+}

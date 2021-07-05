@@ -1,0 +1,13 @@
+/*------------------------  CARRUSEL ----------------------------------*/
+#espaciocarrusel{
+    /* max-width: 1000px; max-width: 1000px;*/
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color:#FAF9E3;
+}
+/*configurar el tamaño de las imagenes del carrusel*/
+.carousel-inner img{
+    margin:auto;
+    height: 600px;
+}

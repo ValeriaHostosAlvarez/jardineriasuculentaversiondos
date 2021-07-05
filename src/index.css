@@ -1,0 +1,84 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+
+
+/*Fuente: Josefin Sans
+    -Bold: titulos
+    -Regular: Barra y Botones
+    font-family: 'Josefin Sans', sans-serif;
+    */
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+    /*Fuente : Monserrat 
+        -párrafos
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        */
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap');
+    
+    
+    *{
+      margin: 0;
+      padding: 0;
+      border:0;
+        box-sizing: border-box;
+    }
+    
+    
+    body{
+      /*height:1048px;
+      max-width:1000px;*/
+        height: auto;
+      
+        width:100%;
+        margin: auto;
+    }
+    #root{
+      min-width: 1000px;
+      width: 100%;
+
+    }
+   
+
+    
+
+/****************************  HEADER  *******************************/
+    header{
+      width:100%;
+      margin:auto;
+      text-align: center; 
+  }
+
+    /*------------------------FOOTER----------------------------------*/
+footer{
+  width: 100%;
+  background-color: #404040;
+  max-height: 70px;
+  height: 100%;
+  margin: auto;
+  font-size: 22px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#root{
+  min-width: 1000px;
+  width: 100%;
+
+}
+

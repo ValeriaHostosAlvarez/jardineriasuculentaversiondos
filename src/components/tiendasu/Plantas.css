@@ -1,0 +1,295 @@
+.carouselExampleSlidesOnly{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+
+}
+ 
+ .carousel-inner img{
+   height: 100%;
+   flex-wrap: nowrap;
+   width: 100%;
+   display: flex;
+   
+ }
+
+   
+  
+  /*Cards plantas------------------------------------------------------------------------------*/
+  #plantas{
+     display: flex !important;
+     flex-direction: column;
+     flex-basis: auto;
+     margin-top: 50px;
+  }
+  
+  #plantas h2{
+      font-size: 3rem;
+      color: #5C4268;  
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+  
+   
+  .card{
+      width: 100%;
+      min-width: 500px;
+      margin: 10px auto;
+  }
+  .card img{
+  
+      max-width: 350px;
+      min-width: 350px;
+      margin:auto;
+      max-height:350px;
+      min-height:350px;
+      padding-top: 20px;
+  }
+  
+  .card-body h6{
+    text-align: center;
+    color: #5C4268;
+    font-size: 2rem;
+  }
+  
+  hr{
+    border:2px solid #eca28a;
+    margin-top: 50px;
+  }
+  .btn{
+    max-width: 250px;
+    display:block;
+    margin-bottom: 5px;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+   background-color: #7f3985;
+    cursor: pointer;
+    margin:auto;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    border:3px solid #26D52B; 
+    min-height: 55px;
+    min-width: 230px;
+    color:white;
+    line-height: 15px;
+    font-weight:700;
+    font-size: 2rem;
+    transform: translateX(3px);
+}
+.btn:hover{
+    border:3px solid #26D52B; 
+    background-color: #ffff;
+    color:#7f3985;
+    cursor: pointer;
+}
+#politi{
+    margin-top: 70px;
+    background: linear-gradient(to right, #5c4268,#C65d4d);
+    min-width: 900px;
+    max-height:450px;
+    min-height: 450px;
+   flex-direction: column;
+   display: flex;
+}   
+
+#politi img{
+    display: flex;
+    float: right;
+    border-radius: 100%;
+    border: 3px solid #FDF7Cf; 
+    margin-top: 30px;
+    margin-right: 100px;
+    width: 400px;
+}
+
+#politi h2{
+    color: #FDF7Cf;
+    text-align: center;
+    padding-top:80px;
+    margin-left:20px;
+    font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #a1f788;
+  font-size: 2rem;
+}
+
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 22px 22px;
+  transition: all 0.2s ease;
+
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #ffab9d;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
+a:hover{
+  color:#351a51;
+  text-decoration: underline;
+}
+
+#botonci{
+   margin-top: 80px;
+   margin-left: 100px;
+   flex-direction: column;
+   display: flex;
+
+}
+
+@media screen and (min-width: 768px){
+  .carouselExampleSlidesOnly{
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+
+  }
+  
+}
+
+
+@media screen and (min-width: 768px){
+  .card img{
+    max-width: 160px;
+    min-width: 160px;
+    margin-top: 20px;
+    max-height:170px;
+    min-height:170px;
+    
+   
+  }
+  
+}
+
+@media screen and (min-width: 768px){
+  .card {
+    max-width: 220px;
+    min-width: 120px;
+    margin:auto;
+    max-height:300px;
+    min-height:300px;
+    margin-bottom: 20px;
+
+    
+   
+  }
+  
+}
+
+
+
+@media screen and (min-width: 768px){
+  #botonci{
+    flex-direction: row;
+  
+  }
+
+}
+
+
+
+@media screen and (min-width: 408px){
+  #plantas {
+     display: flex !important;
+     justify-content: center;
+  
+  }
+
+}
+
+
+@media screen and (min-width: 768px){
+  #plantas h2{
+    
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+  
+  }
+
+}
+
+@media screen and (min-width: 768px){
+
+  #plantas2 h2{
+    text-align: center;
+    color: #5C4268;  
+    border-bottom: 2px solid #5C4268;
+    max-width: 200px;
+    margin: 70px 550px;
+ 
+  }
+
+}
+@media screen and (min-width: 768px){
+
+  .card-body h6{
+    font-size: 1rem;
+ 
+  }
+
+}
+
+@media screen and (min-width: 768px){
+
+.btn{
+  min-height: 30px;
+    min-width: 130px;
+    max-width: 150px;
+    font-size: 1.1rem;
+}
+}

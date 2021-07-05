@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+/*Fuente : Monserrat 
+    -párrafos
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap');
+
+/*------------------------FOOTER----------------------------------*/
+footer{
+    width: 100%;
+    background-color: #404040;
+    max-height: 70px;
+    height: 100%;
+    margin: auto;
+    font-size: 22px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+     font-family: 'Josefin Sans', sans-serif;
+ }

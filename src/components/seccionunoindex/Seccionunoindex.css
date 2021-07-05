@@ -1,0 +1,36 @@
+/*------------------------SECCION PRINCIPAL ----------------------------------*/
+#principal{
+    margin: auto;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+    min-height: 300px;
+    height: 100%;
+    background-color:#FEFEFC;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.cajap {
+    width: 100%;
+    /*al modificarse ajusta la zona o cajas donde estan los articles
+    */
+    min-height: 320px;
+    height: 100%;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.cajap h1{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#83a457;
+}
+
+.texto-principal{
+    font-weight: bolder;
+    color: #7f3985;
+    font-family: 'Montserrat', sans-serif;
+
+}

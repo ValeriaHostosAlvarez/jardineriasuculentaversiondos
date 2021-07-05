@@ -1,0 +1,240 @@
+@media (min-width: 992px){
+	nav{
+	 	padding: 10px;
+	 }
+
+	#navbarText >ul li{
+	 	margin-left: 30px;
+	 }
+
+	 #navbarText ul li >a{
+	    font-size: 20px;
+	    font-weight: bolder;
+	   color: #7f3985;
+	 }
+
+	 #navbarText a:hover{
+	 color: #628546
+	}
+
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: 0.5rem;
+	    padding-left: 0.5rem;
+	}
+    .grid-containerbottom{
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        /*color de fondo de la caja*/
+         background-color: rgb(92, 66, 104);
+        padding: 10px;
+        grid-column-gap: 10px;
+        width: 100%;
+        }
+}
+
+
+/*-------------------------------------------------------------------*/
+@media screen and (max-width:768px) and (min-width:300px){
+
+	.container {
+		flex-direction: column;
+   		justify-content: space-between;
+	} 
+
+ 	header{
+ 		flex-direction: column;
+   		justify-content: space-between;
+   		max-height: 215px;
+	}
+
+#logo img{
+    width:100%;
+    height:auto;
+    /*margin-right: 100px;*/
+    align-items: center;
+    max-height: 215px;
+}
+
+
+ 	.iconos >li  {
+ 		flex-direction: column;
+ 	}
+
+ 	/*responsive de la barra de navegación*/
+	 .navbar-expand-lg .navbar-collapse {
+	    display: flex !important;
+	    flex-direction: column;
+	    flex-basis: auto;
+	}
+
+  	nav #navbarText ul li{
+	   flex-direction: column;
+	 }
+
+	 
+	
+	.navbar-expand-lg .navbar-nav {
+	    flex-direction: column;
+	}
+
+	/*responsive del boton X de la ventana modal del carrito en el nav*/
+	.modal-content .btn-close {
+	    margin-top: 10px;
+	    margin-left: 93%;
+	}
+
+ 	#seccionmedia-fotos{
+		flex-direction: column; 
+	}
+
+	#seccionmedia-fotos div{
+		min-height: 400px;
+	}
+
+
+/*.---------------imagenes */
+.imagenuno{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.imagendos{
+    width: 150px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+/*--------------------------------*/
+
+ 	.grid-containerseccionmedia {
+	  display:grid;
+	  grid-column-gap: 10px;
+	 justify-content: space-around;
+	}
+
+
+	.grid-containerbottom{
+	  display:grid;
+	  grid-template-columns: auto;
+	  justify-content: space-evenly;
+	}
+
+	.grid-item-bottom{
+		  display:grid;
+		  grid-template-columns: auto;
+
+	}
+
+
+ 	footer{
+ 		flex-direction: column;
+   		justify-content: space-evenly;
+   		margin: auto;
+   		padding: 5px;
+   		min-height: 100px;  
+   		line-height: 40px;
+ 	}
+
+
+}
+
+
+/*--------------------------------------------------------------------*/
+@media screen and (max-width: 768px){
+	#logo {
+	    flex-wrap: nowrap;
+	    justify-content: flex-start;
+	}
+
+
+}
+
+
+
+/*-------------------------------------------------------------------*/
+@media screen and (min-width: 769px) and (max-width: 995px){
+/*responsive de la barra de navegación*/
+	 .navbar-expand-lg .navbar-collapse {
+	    display: flex !important;
+	    justify-content: center;
+	}
+
+    .grid-containerbottom{
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        /*color de fondo de la caja*/
+         background-color: rgb(92, 66, 104);
+        padding: 10px;
+        grid-column-gap: 10px;
+        width: 100%;
+        }
+
+}
+   
+
+ @media screen and (max-width: 801px) and (min-width: 300px){
+	#seccionmedia-fotos div {
+	    min-height: auto;
+	}
+
+	.card-group {
+	    display: flex;
+	    flex-flow: none;
+	}
+
+	.card-group > .card {
+		display: flex;
+		flex-direction: column;
+	     margin-bottom:none;
+	}
+
+	.bottom, footer{
+		 margin-left: 5px;
+	    margin-right: 5px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 775px) and (min-width: 300px)  {
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+  }
+  .card-group > .card {
+    flex: 1 0 0%;
+    margin-bottom: 0;
+  }
+
+}
+
+
+@media screen and (max-width:545px) and (min-width: 300px){
+	.iconos {
+    	margin: 0px 0px 0px 0px; 
+	}
+    .grid-containerbottom {
+        display: inline-grid;
+        grid-template-rows: auto auto auto;
+        background-color: rgb(92, 66, 104);
+        padding: 10px;
+        grid-column-gap: 10px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+	.iconos {
+    	margin: 0px 0px 0px 0px; 
+	}
+
+	.modal-content .btn-close {
+    margin-top: 13px;
+    margin-left: 93%;
+}
+}
