@@ -20,7 +20,7 @@ function Nav() {
                         <Link to="/" className="nav-link active">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                         <Link to="/quienessomos " className="nav-link active" aria-current="page">Nosotros</Link>
+                         <Link to="/quienessomos" className="nav-link active" aria-current="page">Nosotros</Link>
                         </li>
                         <li className="nav-item">
                         <Link to="/tienda" className="nav-link active" aria-current="page">Tienda</Link>
