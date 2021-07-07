@@ -1,11 +1,31 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './Contacto.css';
+import ContactoBanner from '../components/contactobanner/ContactoBanner';
+import ContactoParrafo from '../components/contactoparrafo/ContactoParrafo';
+import ContactoFormulario from '../components/contactoformulario/ContactoFormulario';
+import ContactoIframe from '../components/contactoiframe/ContactoIframe';
+import ContactoRedes from '../components/contactoredes/ContactoRedes';
 
-function Contacto() {
-  return (
-  	<div>
-	  	<p>pag contactenos: llamar los compoinentes de cada pagina, estan dentro de la CARPETA-COMPONENTS </p>
-	 </div>
-  );
-};
-
+function Contacto(){
+    return(
+        <div>
+            <ContactoBanner/>
+            <ContactoParrafo/>
+            <ContactoFormulario/>
+            <ContactoIframe/>
+            <ContactoRedes/>
+            
+        </div>
+    );
+}
 export default Contacto;
+
+
+
+
+
+
+
+
+

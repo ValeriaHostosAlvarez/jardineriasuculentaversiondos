@@ -1,0 +1,64 @@
+
+a {
+    text-decoration: none;
+
+}
+
+#redes i  {
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   border-radius: 25px 25px 25px 25px;
+   text-align: center;
+   list-style: none;
+} 
+
+.fab{
+    margin:5px;
+    width: 37px;
+    height: 37px;
+    font-size: 35px;
+    list-style: none;
+    color: #E7D9E5 ;
+    background-color:#7f3985;  
+    max-width: 65px;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.fab:hover{
+    background-color: #E7D9E5;
+    color: #7f3985;
+}
+
+.fa-facebook{
+     background-color: #E7D9E5;
+    color: #7f3985;
+}
+
+.fa-facebook:hover{
+    color: #E7D9E5 ;
+    background-color:#7f3985; 
+}
+#bottom{
+    margin:auto;
+    width: 100%;
+}
+
+
+.grid-item-bottom{
+/* color de fondo negro*/
+ background-color: rgba(92, 66, 104, 0.8);
+ padding: 20px;
+ font-size: 20px;
+color: #ffffff;
+}
+
+
+
+
+
+
+
+
+

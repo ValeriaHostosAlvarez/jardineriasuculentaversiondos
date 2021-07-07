@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap');
+ 
+
+#cajaparrafo p{
+
+    width: 95%;
+    height: 100%;
+    color: #83A457;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-align: justify;
+    margin: 20px;
+    }
+
+ #cajaparrafo h3{
+    text-align: center;
+    color: #83a457;
+    font-family: 'Montserrat';
+}
+
+hr{
+    color: #C65D4D;
+	}
+
+hr:not([size]){
+    height: 4px;
+    }
+

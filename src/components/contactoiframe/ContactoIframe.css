@@ -1,0 +1,43 @@
+#recoge_pedido p, .card-text{
+    color: #83A457;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    padding-right: 30px; 
+    text-align: justify;
+    margin: 20px;
+    }
+
+#actualizacion3min{
+    display:flex;
+}
+
+#location_caja{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    width:auto;
+    height:auto; 
+    
+}
+
+.gm-style-pbc {
+    transition: opacity ease-in-out;
+    background-color: rgba(0,0,0,0.45);
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+ 
+    iframe {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    } 
+}
+
+#fila_ubicacion{
+    border-radius: 5px;
+    border: 7px solid #87a357;
+
+}
+
